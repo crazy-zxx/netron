@@ -3,15 +3,17 @@
 <img width="400px" height="100px" src="https://github.com/lutzroeder/netron/raw/main/.github/logo-dark.svg#gh-dark-mode-only">
 </div>
 
-Netron is a viewer for neural network, deep learning and machine learning models. 
+Netron是神经网络、深度学习和机器学习模型的查看器。
 
-Netron supports ONNX, TensorFlow Lite, Caffe, Keras, Darknet, PaddlePaddle, ncnn, MNN, Core ML, RKNN, MXNet, MindSpore Lite, TNN, Barracuda, Tengine, CNTK, TensorFlow.js, Caffe2 and UFF.
+Netron支持 ONNX, TensorFlow Lite, Caffe, Keras, Darknet, PaddlePaddle, ncnn, MNN, Core ML, RKNN, MXNet, MindSpore Lite, TNN, Barracuda, Tengine, CNTK, TensorFlow.js, Caffe2, UFF。
 
-Netron has experimental support for PyTorch, TensorFlow, TorchScript, OpenVINO, Torch, Vitis AI, kmodel, Arm NN, BigDL, Chainer, Deeplearning4j, MediaPipe, ML.NET and scikit-learn.
+Netron对 PyTorch, TensorFlow, TorchScript, OpenVINO, Torch, Vitis AI, kmodel, Arm NN, BigDL, Chainer, Deeplearning4j, MediaPipe, ML.NET, scikit-learn提供实验支持。
 
 <p align='center'><a href='https://www.lutzroeder.com/ai'><img src='.github/screenshot.png' width='800'></a></p>
 
-## Install
+## 使用方式
+
+### 安装可执行文件查看
 
 **macOS**: [**Download**](https://github.com/lutzroeder/netron/releases/latest) the `.dmg` file or run `brew install netron`
 
@@ -19,13 +21,15 @@ Netron has experimental support for PyTorch, TensorFlow, TorchScript, OpenVINO, 
 
 **Windows**: [**Download**](https://github.com/lutzroeder/netron/releases/latest) the `.exe` installer or run `winget install -s winget netron`
 
+### 通过浏览器网页查看
+
 **Browser**: [**Start**](https://netron.app) the browser version.
+
+### 安装python包查看
 
 **Python Server**: Run `pip install netron` and `netron [FILE]` or `netron.start('[FILE]')`.
 
-## Models
-
-Sample model files to download or open using the browser version:
+## 示例模型文件
 
  * **ONNX**: [squeezenet](https://media.githubusercontent.com/media/onnx/models/main/vision/classification/squeezenet/model/squeezenet1.0-3.onnx) [[open](https://netron.app?url=https://media.githubusercontent.com/media/onnx/models/main/vision/classification/squeezenet/model/squeezenet1.0-3.onnx)]
  * **TensorFlow Lite**: [hair_segmentation](https://raw.githubusercontent.com/google/mediapipe/master/mediapipe/models/hair_segmentation.tflite) [[open](https://netron.app?url=https://raw.githubusercontent.com/google/mediapipe/master/mediapipe/models/hair_segmentation.tflite)]
